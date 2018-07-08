@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "post",
+  "info": {
+    "name": "post",
+    "description": "Any old post"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Body": {
+      "type": "text"
+    },
+    "Photos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
