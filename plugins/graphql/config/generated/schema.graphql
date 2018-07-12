@@ -11,6 +11,7 @@ type Post {
   createdAt: String!
   updatedAt: String!
   Body: String
+  title: String
   Photos(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
 }
 

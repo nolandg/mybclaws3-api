@@ -3,6 +3,9 @@
     "attributes": {
       "Body": {
         "appearance": ""
+      },
+      "title": {
+        "appearance": ""
       }
     }
   }

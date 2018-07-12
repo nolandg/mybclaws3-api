@@ -16,6 +16,9 @@
       "collection": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
